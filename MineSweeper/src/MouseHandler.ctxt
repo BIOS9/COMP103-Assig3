@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MouseHandler
+comment0.text=\r\n\ Handles\ and\ differentiates\ right\ and\ left\ click\ for\ the\ game\r\n
+comment1.params=sweeper
+comment1.target=MouseHandler(MineSweeper)
+comment2.params=e
+comment2.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment3.params=e
+comment3.target=void\ mouseReleased(java.awt.event.MouseEvent)
+comment4.params=e
+comment4.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment5.params=e
+comment5.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment6.params=e
+comment6.target=void\ mouseClicked(java.awt.event.MouseEvent)
+numComments=7

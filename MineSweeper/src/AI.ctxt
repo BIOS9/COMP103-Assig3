@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AI
+comment0.text=\r\n\ Basic\ Minesweeper\ AI\ to\ recommend\ actions\ to\ the\ user.\r\n\ Can\ solve\ basic\ boards\ where\ there\ is\ no\ guessing\ involved.\r\n
+comment1.params=board
+comment1.target=int[][]\ createVisibleIntBoard(Cell[][])
+comment1.text=\r\n\ Converts\ board\ of\ Cell\ objects\ into\ a\ board\ of\ integers.\r\n\ Each\ integer\ is\ the\ value\ of\ adjacent\ mines.\r\n\r\n\ This\ method\ is\ for\ use\ with\ the\ other\ methods\ of\ the\ AI\ class/\r\n\r\n\ @param\ board\ Game\ board\r\n\ @return\ Integer\ board\r\n
+comment2.params=board
+comment2.target=int[][]\ createMoves(int[][])
+comment2.text=\r\n\ Find\ and\ return\ available\ game\ actions.\r\n\ @param\ board\ Board\ to\ solve\ a\ layer\ of\r\n\ @return\ Returns\ 2d\ array\ of\ actions.\ One\ action\ is\ returned\ for\ each\ cell,\ -1\ is\ no\ action,\ 0\ is\ a\ safe\ cell,\ 1\ is\ a\ cell\ with\ a\ mine\r\n
+comment3.params=row\ col\ board
+comment3.target=int[][]\ getAdjacentSquare(int,\ int,\ int[][])
+comment3.text=\r\n\ Get\ 3x3\ square\ of\ cells\ around\ and\ including\ a\ cell\ at\ s\ specified\ position\r\n\ @param\ row\ Row\ of\ cell\ to\ get\ cells\ around\r\n\ @param\ col\ Column\ of\ cell\ to\ get\ cells\ around\r\n\ @param\ board\ Board\ to\ get\ cells\ from\r\n\ @return\ 3x3\ square\ of\ adjacent\ cells\r\n
+comment4.params=square
+comment4.target=int[][]\ solveSquare(int[][])
+comment4.text=\r\n\ Attempts\ to\ solve\ a\ 3x3\ square\ of\ the\ board.\r\n\ @param\ square\ Integer\ square\ of\ adjacent\ mines.\ Each\ integer\ should\ contain\ the\ number\ of\ adjacent\ mines\r\n\ @return\ Recommended\ actions.\ -1\ \=\ no\ action/unknown,\ 0\ \=\ safe,\ 1\ \=\ mine\r\n
+numComments=5

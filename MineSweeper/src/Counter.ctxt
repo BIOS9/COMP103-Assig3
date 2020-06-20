@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Counter
+comment0.text=\r\n\ Combines\ multiple\ segment\ displays\ into\ a\ counter\ that\ can\ display\ positive\ and\ negative\ whole\ numbers\r\n
+comment1.params=x\ y\ displays\ scale
+comment1.target=Counter(double,\ double,\ int,\ double)
+comment1.text=\r\n\ Constructor\r\n\ @param\ x\ Global\ X\ position\ of\ the\ counter\r\n\ @param\ y\ Global\ Y\ position\ of\ the\ counter\r\n\ @param\ displays\ How\ many\ "places"\ or\ displays\ to\ use\r\n\ @param\ scale\ How\ large\ to\ make\ the\ display\r\n
+comment2.params=value
+comment2.target=void\ display(int)
+comment2.text=\r\n\ Display\ a\ number\ on\ the\ counter\r\n\ @param\ value\ Number\ to\ display\r\n
+numComments=3

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SegmentDisplay
+comment0.text=\r\n\ One\ 7-segment\ digit\ display\ for\ the\ counters\r\n
+comment1.params=x\ y\ scale
+comment1.target=SegmentDisplay(double,\ double,\ double)
+comment2.params=number
+comment2.target=void\ draw(int)
+comment2.text=\r\n\ Displays\ a\ number\ on\ the\ segment\r\n\ @param\ number\ Number\ to\ display\r\n
+comment3.params=
+comment3.target=void\ drawNegative()
+comment3.text=\r\n\ Displays\ a\ negative\ sign\ instead\ of\ a\ number\r\n
+comment4.params=index\ offsetIndex\ on
+comment4.target=void\ drawSegment(int,\ int,\ boolean)
+comment4.text=\r\n\ Draws\ one\ segment\ as\ either\ on\ or\ off\r\n\ @param\ index\ What\ segment\ style\ to\ draw\r\n\ @param\ offsetIndex\ What\ position\ offset\ to\ use\r\n\ @param\ on\ Whether\ the\ segment\ is\ on\ or\ off\r\n
+numComments=5
